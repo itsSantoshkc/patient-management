@@ -7,14 +7,17 @@ import com.pm.patientservice.repository.PatientRepository;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class PatientService {
     private PatientRepository patientRepository;
 
-    public PatientService(PatientRepository patientRepository){
+    public PatientService(PatientRepository patientRepository) {
         this.patientRepository = patientRepository;
     }
 
-    public List<PatientResponseDTO> getPatients(){
+    public List<PatientResponseDTO> getPatients() {
         List<Patient> patients = patientRepository.findAll();
 
         return patients.stream().map(PatientMapper::toDTO).toList();
