@@ -1,0 +1,187 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 164
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ram",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T220839.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 164
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "ram",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T220831.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 161
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T215039.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 171
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ram prasad",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T215033.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 171
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ram prasad",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T215026.200.json
+
+###
+
+GET http://localhost:4000/patients
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-04-06T215017.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 171
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ram prasad",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T214238.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ram prasad",
+  "email": "ram.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T214135.500.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Ram prasad",
+  "email": "ram.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
+
+<> 2025-04-06T214125.200.json
+
+###
+
+GET http://localhost:4000/patients
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-04-05T193930.200.json
+
+###
+
+GET http://localhost:4000
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-04-05T193921.404.json
+
+###
+

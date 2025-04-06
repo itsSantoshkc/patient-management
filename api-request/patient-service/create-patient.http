@@ -1,0 +1,11 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "ram",
+  "email": "ramm.prasad@example.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "1994-03-06"
+
+}
