@@ -13,7 +13,7 @@ import java.util.Map;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
-    private static  final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    private static final Logger log = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, String>> handleValidationException(MethodArgumentNotValidException ex) {
@@ -25,10 +25,18 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(EmailALreadyExistsException.class)
-    public ResponseEntity<Map<String,String>> handleEmailAlreadyExistException(EmailALreadyExistsException ex){
-        log.warn("Email address already exist {}",ex.getMessage());
-        Map<String,String> errors = new HashMap<>();
-        errors.put("message","Email address already exists");
-        return  ResponseEntity.badRequest().body(errors);
+    public ResponseEntity<Map<String, String>> handleEmailAlreadyExistException(EmailALreadyExistsException ex) {
+        log.warn("Email address already exist {}", ex.getMessage());
+        Map<String, String> errors = new HashMap<>();
+        errors.put("message", "Email address already exists");
+        return ResponseEntity.badRequest().body(errors);
     }
+
+    @ExceptionHandler(PatientNotFoundException.class)
+    public ResponseEntity<Map<String, String>> handlePatientNotFoundException(PatientNotFoundException ex) {
+    log.warn("Patient with the following id doesn't exist {}",ex.getMessage());
+    Map<String,String> errors = new HashMap<>();
+    errors.put("message" , "Patient not found");
+    return ResponseEntity.badRequest().body(errors);
+}
 }
