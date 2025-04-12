@@ -1,4 +1,4 @@
-POST http://localhost:4000/patients
+GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
 Content-Type: application/json
 Content-Length: 164
 Connection: Keep-Alive
