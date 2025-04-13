@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="patient-service-db">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.48">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <IntrospectionStateNumber>765</IntrospectionStateNumber>
@@ -4840,45 +4840,45 @@ true posixrules
       <OwnerName>admin_user</OwnerName>
     </table>
     <column id="267" parent="266" name="id">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>748</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <column id="268" parent="266" name="name">
-      <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>748</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="269" parent="266" name="email">
-      <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>748</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="270" parent="266" name="address">
-      <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>748</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="271" parent="266" name="date_of_birth">
-      <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>748</StateNumber>
+      <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
     <column id="272" parent="266" name="registered_date">
-      <DasType>date|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StateNumber>748</StateNumber>
+      <StoredType>date|0s</StoredType>
       <TypeId>1082</TypeId>
     </column>
     <index id="273" parent="266" name="patient_pkey">

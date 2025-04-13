@@ -1,3 +1,112 @@
+GET http://localhost:4004/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-04-13T204809.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 166
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Santosh K.C.",
+  "email": "santoshkc776@gmail.com",
+  "address": "Chapagaun,Lalitput",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-13T200136.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 169
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Santosh K.C.",
+  "email": "santoshkc778996@gmail.com",
+  "address": "Chapagaun,Lalitput",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-13T195256.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 168
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Santosh K.C.",
+  "email": "santoshkc77896@gmail.com",
+  "address": "Chapagaun,Lalitput",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-13T183021.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Santosh K.C.",
+  "email": "santoshkc7786@gmail.com",
+  "address": "Chapagaun,Lalitput",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-13T182918.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Santosh K.C.",
+  "email": "santoshkc7786@gmail.com",
+  "address": "Chapagaun,Lalitput",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-13T182914.400.json
+
+###
+
 POST http://localhost:4000/patients
 Content-Type: application/json
 Content-Length: 167
