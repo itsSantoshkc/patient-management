@@ -1,3 +1,203 @@
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 167
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "santoshkc7786@gmail.com",
+  "address": "Chapagaun,Lalitput",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T182703.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 175
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gsmzsssagil.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T182125.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 173
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gsmzsagil.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T175949.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 172
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gsmzsail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T175939.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 172
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gsmzsail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T175920.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 171
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gsmsail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T174516.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gmsail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T174511.400.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gmsail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T174404.200.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 169
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gmail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T174358.400.json
+
+###
+
+POST http://localhost:4000/patients
+Content-Type: application/json
+Content-Length: 169
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Santosh K.C.",
+  "email": "batmankc7@gmail.com",
+  "address": "789 Oak St, Capital City",
+  "dateOfBirth": "2002-03-06",
+  "registeredDate": "2025-12-04"
+
+}
+
+<> 2025-04-12T174321.200.json
+
+###
+
 GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/patients
 Content-Type: application/json
 Content-Length: 164
